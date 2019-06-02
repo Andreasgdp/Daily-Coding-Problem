@@ -5,7 +5,7 @@ This repository is consisting of challenges that are being completed every day (
 Over time this place will be filled with different assignments and awnsers to prepare one for a possible coding interview, but also just to become a better programmer.
 
 <p align="center">
-  Enjoy and learn 😄
+  Learn and enjoy 😄
 </p>
 
 <p align="center">
