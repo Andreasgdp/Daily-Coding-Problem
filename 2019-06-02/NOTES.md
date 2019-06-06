@@ -1,4 +1,4 @@
-# Notes
+# Notes (2019-06-02)
 
 1. The ```for-loop``` runs through all the elements of the list of strings.
 2. Here it checks for each string if the sting (each string is only one word) starts with the prefix ```s```.

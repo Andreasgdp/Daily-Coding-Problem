@@ -1,4 +1,4 @@
-# Notes
+# Notes (2019-05-24)
 
 1.  This part loops through the list of integers, to get their values.
 

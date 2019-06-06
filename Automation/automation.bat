@@ -8,10 +8,12 @@ for /f %%a in ('cscript /nologo "%temp%\%~n0.vbs"') do set "result=%%a"
  set "YYYY=%result:~0,4%"
  set "MM=%result:~4,2%"
  set "DD=%result:~6,2%"
- set "result=%dd%-%mm%-%yyyy%"
+ set "result=%yyyy%-%mm%-%dd%"
 python automation.py %result%
 cd C:\Users\andre\GitHub\Daily-Coding-Problem\%result%
 type NUL > ASSIGNMENT.md
 type NUL > NOTES.md
+cd C:\Users\andre\GitHub\Daily-Coding-Problem\Automation
+python automation2.py %result%
+cd C:\Users\andre\GitHub\Daily-Coding-Problem\%result%
 code-insiders .
-pause

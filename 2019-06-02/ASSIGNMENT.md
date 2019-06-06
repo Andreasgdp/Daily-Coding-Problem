@@ -1,4 +1,4 @@
-# Assignment
+# Assignment (2019-06-02)
 Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Twitter.

@@ -1,4 +1,4 @@
-# Daily Coding Problem (24-05-19)
+# Daily Coding Problem (2019-05-24)
 
 Good morning! Here's your coding interview problem for today.
 

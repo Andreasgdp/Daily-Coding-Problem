@@ -1,4 +1,4 @@
-# Notes
+# Notes (2019-06-01)
 
 1.  The function ```scheduler()``` takes a ```functionName``` and an integer as the time in milliseconds. The ```functionName``` needs to be a string, because that is how it later calls the function.
 

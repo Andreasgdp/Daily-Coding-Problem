@@ -1,4 +1,4 @@
-# Daily Coding Problem (01-06-19)
+# Daily Coding Problem (2019-06-01)
 
 Good morning! Here's your coding interview problem for today.
 
