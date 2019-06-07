@@ -13,6 +13,7 @@ python automation.py %result%
 cd C:\Users\andre\GitHub\Daily-Coding-Problem\%result%
 type NUL > ASSIGNMENT.md
 type NUL > NOTES.md
+type NUL > %result%.py
 cd C:\Users\andre\GitHub\Daily-Coding-Problem\Automation
 python automation2.py %result%
 cd C:\Users\andre\GitHub\Daily-Coding-Problem\%result%
