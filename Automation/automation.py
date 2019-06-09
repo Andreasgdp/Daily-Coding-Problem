@@ -1,12 +1,11 @@
 import sys
 import os
 
-path = "C:/Users/andre/GitHub/Daily-Coding-Problem/"
-
+path = os.path.join(os.environ['USERPROFILE'], "GitHub/Daily-Coding-Problem/")
 
 def create():
     folderName = str(sys.argv[1])
-    newPath = str(path) + str(folderName)
+    newPath = path + folderName
     os.mkdir(newPath)
 
 
