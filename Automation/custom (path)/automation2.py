@@ -1,8 +1,6 @@
 import sys
 import os
 
-# path = '../../{}/'.format(str(sys.argv[1]))
-
 assignment = '../../{}/{}'.format(str(sys.argv[1]), 'ASSIGNMENT.md')
 f1 = open(assignment, 'a')
 f1.write('# Assignment ({})'.format(str(sys.argv[1])))
