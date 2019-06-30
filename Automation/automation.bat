@@ -17,4 +17,4 @@ type NUL > %result%.py
 cd %USERPROFILE%\GitHub\Daily-Coding-Problem\Automation
 python automation2.py %result%
 cd %USERPROFILE%\GitHub\Daily-Coding-Problem\%result%
-code-insiders .
+code .
