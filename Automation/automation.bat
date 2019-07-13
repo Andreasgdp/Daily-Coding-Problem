@@ -1,4 +1,4 @@
-cd %USERPROFILE%\GitHub\Daily-Coding-Problem\Automation
+cd %USERPROFILE%\OneDrive - Syddansk Erhvervsskole\GitHub\Daily-Coding-Problem\Automation
 @echo off
 set day=0
 echo >"%temp%\%~n0.vbs" s=DateAdd("d",%day%,now) : d=weekday(s)
@@ -10,11 +10,11 @@ for /f %%a in ('cscript /nologo "%temp%\%~n0.vbs"') do set "result=%%a"
  set "DD=%result:~6,2%"
  set "result=%yyyy%-%mm%-%dd%"
 python automation.py %result%
-cd %USERPROFILE%\GitHub\Daily-Coding-Problem\%result%
+cd %USERPROFILE%\OneDrive - Syddansk Erhvervsskole\GitHub\Daily-Coding-Problem\%result%
 type NUL > ASSIGNMENT.md
 type NUL > NOTES.md
 type NUL > %result%.py
-cd %USERPROFILE%\GitHub\Daily-Coding-Problem\Automation
+cd %USERPROFILE%\OneDrive - Syddansk Erhvervsskole\GitHub\Daily-Coding-Problem\Automation
 python automation2.py %result%
-cd %USERPROFILE%\GitHub\Daily-Coding-Problem\%result%
+cd %USERPROFILE%\OneDrive - Syddansk Erhvervsskole\GitHub\Daily-Coding-Problem\%result%
 code .

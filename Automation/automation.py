@@ -1,7 +1,7 @@
 import sys
 import os
 
-path = os.path.join(os.environ['USERPROFILE'], "GitHub/Daily-Coding-Problem/")
+path = os.path.join(os.environ['USERPROFILE'], "OneDrive - Syddansk Erhvervsskole/GitHub/Daily-Coding-Problem/")
 
 def create():
     folderName = str(sys.argv[1])
